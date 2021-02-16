@@ -1,0 +1,120 @@
+
+:root {
+    --blue: #66b4ef;
+    --darkBlue: #4c9ad6;
+    --black: #292F33;
+    --misc: #66757F;
+    --border: #CCD6DD;
+    --background: #edf1f4;
+    --posts: #FFFFFF;
+    --white: #FFFFFF;
+}
+
+body, html {
+    margin: 0;
+}
+
+body {
+	background-color: var(--background) !important;
+	font-family: sans-serif !important;
+    font-size: 10pt;
+    text-align: center;
+}
+
+hr {
+    display: none;
+}
+
+a {
+    color: var(--blue) !important;
+}
+
+#boardlist {
+    margin: 0 !important;
+    margin-top: 0;
+	background-color: var(--darkBlue) !important;
+    border-width: 0px !important;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+/* hide newlines in boardlist */
+br {
+    display: none;
+}
+
+/* boardlist */
+.hb {
+    color: white !important;
+    vertical-align: middle !important;
+	padding: 5px !important;
+}
+
+/* boardlist hover */
+.hb:hover {
+    background-color: var(--blue) !important;
+}
+
+/* hide 4kev banner */
+#headbody > a:nth-child(2) > img {
+    display: none;
+}
+
+/* cchan banner */
+img {
+    width: 20% !important;
+    height: auto !important;
+    position: absolute;
+    top: 40px;
+    left: 40%;
+}
+
+#allposts {
+	margin-left: 0px !important;
+	margin-top: 80px !important;
+}
+
+/* reply links */
+.postdiv a {
+    text-decoration: none;
+}
+
+/* reply links hover */
+.postdiv a:hover {
+    text-decoration: underline;
+}
+
+/* submission form */
+#post {
+    width: 50%;
+    margin: 20px;
+    margin-left: 25% !important;
+    text-align: left;
+    overflow: hidden;
+}
+
+textarea, input {
+	background-color: var(--posts);
+}
+
+textarea {
+    height: 100px;
+    width: 99% !important;
+    resize: none;
+}
+
+.postdiv {
+	background-color: var(--posts) !important;
+	border-style: solid !important;
+    border-width: 1px !important;
+    border-color: var(--border) !important;
+	border-radius: 5px !important;
+	padding: 5px !important;
+	margin: 5px !important;
+    margin-left: 2% !important;
+    text-align: left;
+    width: fit-content;
+    max-width: 95%;
+    overflow: hidden;
+}
